@@ -24,8 +24,8 @@ if hasFish || hasVegan {
 let temp = 82
 let isRaining = true
 let isSunny = true
-let isNiceWeather = temp >= 82
-if !isNiceWeather {
+let isNiceWeather = temp >= 82 && isSunny == true
+if isNiceWeather == true{
     print("I'm going for a walk!")
 }
 
