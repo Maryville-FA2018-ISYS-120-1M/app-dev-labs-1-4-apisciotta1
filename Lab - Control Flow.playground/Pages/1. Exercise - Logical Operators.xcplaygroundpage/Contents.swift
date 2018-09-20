@@ -40,16 +40,19 @@ print(4 >= 5)
 /*:
  7. `(47 > 90) && (47 < 90)`
  */
-print(true)
+print(true) // print(false)
 print((47 > 90) && (47 < 90))
 /*:
  8. `(47 > 90) || (47 < 90)`
  */
-print(false)
+print(false) // print(true)
 print((47 > 90) || (47 < 90))
 /*:
  9. `!true`
  */
 print(true)
 print(!true)
+
+/* print(false)
+ print(!true) */
 //: page 1 of 9  |  [Next: Exercise - If and If-Else Statements](@next)
